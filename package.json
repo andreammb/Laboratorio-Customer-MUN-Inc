@@ -1,0 +1,35 @@
+{
+  "name": "LabPrueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "method-override": "^3.0.0",
+    "mocha": "^7.1.2",
+    "mockgoose": "^8.0.4",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.4",
+    "npm-check-updates": "^6.0.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha --recursive --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

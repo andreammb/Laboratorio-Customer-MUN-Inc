@@ -1,0 +1,10 @@
+<h1>All Customers</h1>
+
+<div class="customersList">
+    {{#each customers}}
+            <h4 class="tableTitle">{{name}}&nbsp;&nbsp;{{lastName}}</h4>
+            <p>Date of birth:&nbsp;&nbsp;{{dBirth}}<br>
+                Email:&nbsp;&nbsp;{{email}}<br>
+                Phone:&nbsp;&nbsp;{{phone}}</p>
+    {{/each}}
+</div>

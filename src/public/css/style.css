@@ -1,0 +1,63 @@
+.nav{
+    background-color: #5E740B;
+    height: 46px;
+
+}
+.logo{
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 30pt;
+    color: #dddddd;
+}
+
+.contenido{
+    background-color:azure ;
+    padding: 50px;
+    height: fit-content;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: saddlebrown;
+}
+input{
+    margin: 10px 0;
+    width: 200px;
+    font-size: medium;
+}
+button{
+    background-color: #2b81af;
+    color: white;
+    margin: 10px 0;
+    width: 205px;
+    font-size: medium;
+}
+.customersList{
+    width: 300px;
+}
+.tableTitle{
+    background-color: #2b81af;
+    color: white;
+    height: 20px;
+    padding: 5px;
+}
