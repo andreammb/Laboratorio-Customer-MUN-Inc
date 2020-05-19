@@ -2,10 +2,11 @@ const mongoose = require('mongoose')
 
 const { LabHOST , LabDB } = process.env;
 
-const mongoDBURI = `mongodb://${LabHOST}/${LabDB}`;
+const mongoDBURI = 'mongodb://mongo:${LabHOST}/${LabDB}/docker-node-mongo';
 
 
-    mongoose.connect(mongoDBURI, {
+    mongoose.connect( mongoDBURI, {
+
         useUnifiedTopology: true,
         useNewUrlParser: true
     })

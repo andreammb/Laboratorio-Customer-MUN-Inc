@@ -7,7 +7,7 @@ var chai = require('chai')
     , chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const expect = require('chai').expect;
-var app = require('../src/index');
+var app = require('../src/server');
 const url= 'http://localhost:3000';
 const fetch   = require('node-fetch');
 
@@ -63,7 +63,7 @@ describe('Create new customer: ',()=>{
     });
 });*/
 
-/*
+
 describe('Create new customer', function () {
     it('should create new customer', async () => {
 
@@ -82,7 +82,7 @@ describe('Create new customer', function () {
         }
 
     });
-});*/
+});
 
 /*
 
