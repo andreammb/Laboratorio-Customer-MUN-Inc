@@ -35,6 +35,25 @@ describe('Create new customer',function(){
     });
 
 });
+describe('Show customers',function(){
+    //test creation
+    it('Show database customers',function(done){
+
+        var char = new customerSchema({
+            name: 'Loca',
+            lastName: 'Degandoca',
+            dBirth: '1655-02-04',
+            email: 'loca@gmail.com',
+            phone: '2222222'
+        });
+        char.save().then(function() {
+            assert(char.isNew ===false);
+
+        });
+        done();
+    });
+
+});
 /*
 it('Create new customer', async () => {
 
