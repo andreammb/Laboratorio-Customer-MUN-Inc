@@ -4,11 +4,11 @@ const mongoose = require('mongoose')
 mongoose.Promise = global.Promise;
 
 //Connect before tests run
-before(function(done){
+//before(function(done){ //activar para hacer test
 
 const { LabHOST , LabDB } = process.env;
 
-//const mongoDBURI = 'mongodb://mongo:${LabHOST}/${LabDB}/docker-node-mongo';
+//const mongoDBURI = 'mongodb://mongo:${LabHOST}/${LabDB}/docker-node-mongo';//activar para test
 const mongoDBURI = `mongodb://${LabHOST}/${LabDB}`;
 
     mongoose.connect( mongoDBURI, {
@@ -21,6 +21,6 @@ const mongoDBURI = `mongodb://${LabHOST}/${LabDB}`;
         .then(db => console.log('base de datos conectada'))
 
         .catch(err => console.log(err));
-    done();
+   // done();//activar para hacer test
 
-});
+//});//activar para test
