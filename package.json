@@ -14,7 +14,7 @@
     "mockgoose": "^8.0.4",
     "mongodb": "^3.5.7",
     "mongoose": "^5.9.14",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/chai-http": "^4.2.0",
