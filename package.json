@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/chai-http": "^4.2.0",
     "dotenv": "^8.2.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "nodemon": "^2.0.4",
     "npm-check-updates": "^6.0.0",
     "supertest": "^4.0.2"
